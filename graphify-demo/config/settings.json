@@ -1,0 +1,13 @@
+{
+  "projectName": "Graphify Demo",
+  "version": "0.1.0",
+  "language": "TypeScript",
+  "sourceDirectory": "src",
+  "documentationDirectory": "docs",
+  "indexing": {
+    "includePatterns": ["**/*.ts", "**/*.js", "**/*.json"],
+    "excludePatterns": ["**/*.test.ts", "**/node_modules/**"],
+    "extractDependencies": true,
+    "extractFunctionSignatures": true
+  }
+}
